@@ -1,0 +1,8 @@
+List= [“Hello”,”World”,”in”,”a”,”Frame”]
+def frame(List):
+    size = len(max(words, key=len))
+    print('*' * (size + 4))
+    for word in List:
+        print('* {a:<{b}} *'.format(a=word, b=size))
+    print('*' * (size + 4))
+frame(List.split(" "))       
